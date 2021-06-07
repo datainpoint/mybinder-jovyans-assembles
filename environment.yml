@@ -1,5 +1,12 @@
-name: xeus-sqlite
+name: xeus-sql
 channels:
   - conda-forge
 dependencies:
-  - xeus-sqlite=0.1.0
+  - soci-sqlite
+  - jupyterlab
+  - xeus-sql
+  - xeus-sqlite
+  - numpy
+  - pandas
+  - rise
+  - matplotlib
